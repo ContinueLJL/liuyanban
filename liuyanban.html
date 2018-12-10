@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="liuyanban2.css" />
+        <script src="a.js"></script>
+        <title>留言板好难</title>
+    </head>
+
+    <body onload="load()">
+        <div id="header">
+            <div id="header_center">留言板</div>
+            <div id="header_side">
+                <button class="float" onclick="javascript:history.back()">退出</button>
+                <button id="guanli" class="float" onclick="guanli()">留言管理</button>
+                <div id="nickname"></div>
+            </div>
+        </div>
+
+        <div id="middle">
+            我要留言:
+            <input type="text" name="content" id="content" placeholder="请输入留言" spellcheck="false" >
+            <button id="send" class="liuyan" onclick="send()">发表留言</button>
+        </div>
+        <div id="lishiliuyan">历史留言</div>
+        <div id="record"></div>      
+    </body>
+</html>

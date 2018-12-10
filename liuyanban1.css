@@ -1,0 +1,94 @@
+input{
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+input.sure{
+    height: 50px;
+    width: 470px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+}
+input.register{
+    height: 50px;
+    width: 470px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+#initial_liuyanban{
+    position: relative;
+    width: 700px;
+    height: 510px;
+    top:50px;
+    margin: auto;
+    border: 2px solid rgba(0,0,0,.2);
+}
+#liuyanban_head{
+    position: relative;
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    line-height: 70px;
+    font-size:50px;
+    padding: 15px;
+}
+#liuyanban_body{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#head{
+    position: relative;
+    top: -40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
+.input-information{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.input-information2{
+    display: none;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.input-information3{
+    display: none;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.button{
+    position: relative;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+}

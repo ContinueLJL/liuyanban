@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+button.float{
+    position: relative;
+    top: 20px;
+    float: right;
+    margin: 5px;
+}
+button.float2{
+    float: right;
+    margin: 10px;
+    font-size: 15px;
+}
+button.liuyan{
+    height: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+input{
+    height: 30px;
+    width: 780px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    line-height: 70px;
+}
+#header_center{
+    font-size: 45px;
+    text-align: center;
+}
+#header_side{
+    position: relative;
+    top: -70px;
+    padding-right: 20px;
+    height: 70px;
+    line-height: 70px;
+    
+}
+#nickname{
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 70px;
+    float: right;
+    color: white;
+}
+#middle{
+    position: relative;
+    top: 50px;
+    left: 260px;
+    width: 1000px;
+    font-size: 20px;
+}
+#lishiliuyan{
+    position: relative;
+    top: 100px;
+    left: 660px;
+    width: 500px;
+    font-size: 50px;
+}
+
+
+#record{
+    position: relative;
+    top: 130px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 2px solid rgba(0,0,0,.2)
+}
+
+
+
+.block{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.person{
+    float: left;
+    height: 25px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.person2{
+    float: left;
+    height: 25px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.time{
+    float: right;
+    height: 25px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.time2{
+    float: left;
+    height: 25px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 25px;
+}
+.content{
+    clear: both;
+    padding: 10px;
+    font-size: 30px;
+    word-break: break-all;
+    /* height: 40px; */
+}
+.modification{
+    clear: both;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+
+}
